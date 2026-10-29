@@ -1,5 +1,11 @@
 # astro
 
+## 7.4.5
+
+### Patch Changes
+
+- [#18544](https://github.com/withastro/astro/pull/18544) [`e3bec3d`](https://github.com/withastro/astro/commit/e3bec3d2c770cb53771dad723db57a2ebf931b42) Thanks [@skezo](https://github.com/skezo)! - Fixes request paths with invalid percent-encoding (e.g. `/%C0%AF` or a bare `%`) being logged as an `Invalid URL encoding` error and routed with the undecoded path. These requests now return a `400`, the same as a path that is encoded too many times.
+
 ## 7.4.4
 
 ### Patch Changes
