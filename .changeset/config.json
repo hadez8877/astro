@@ -4,6 +4,9 @@
   "commit": false,
   "linked": [],
   "access": "public",
+  "privatePackages": {
+    "version": true
+  },
   "baseBranch": "origin/main",
   "updateInternalDependencies": "patch",
   "ignore": [
